@@ -1,3 +1,40 @@
 {
-  "language": "node"
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "session": 1672875901380535000,
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-hello-world",
+            "title": "01-hello-world",
+            "path": "exercises/01-hello-world",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02-is-old-enough-to-drink",
+            "title": "02-is-old-enough-to-drink",
+            "path": "exercises/02-is-old-enough-to-drink",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
 }
